@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/clearAll"
+        android:layout_height="@dimen/clearAll_height"
+        android:layout_width="@dimen/clearAll_width"
+        android:text="Clear all"
+        android:layout_margin="20dp"></Button>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab"
+            android:orientation="horizontal"/>
+    </ScrollView>
+
+</LinearLayout>

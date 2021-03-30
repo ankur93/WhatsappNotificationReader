@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="table_col_size">12</dimen>
+    <dimen name="clearAll_width">180dip</dimen>
+    <dimen name="clearAll_height">80dip</dimen>
+</resources>
